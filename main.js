@@ -1,5 +1,7 @@
-for (let i=1; i<=10; i++){
-    console.log(i);
-}
+var userInput = prompt("Enter your university name:");
 
-console.log("Loop finished!");
+if (userInput === "UTHM") {
+alert("Welcome to UTHM!");
+} else {
+alert("Invalid entry!");
+}
